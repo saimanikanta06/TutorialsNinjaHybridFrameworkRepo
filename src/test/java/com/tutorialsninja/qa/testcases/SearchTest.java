@@ -23,6 +23,7 @@ public class SearchTest extends Base {
 	public void setup() {
 		driver=intializeBrowserAndOpenApplication(prop.getProperty("browserName"));
 		homePage= new HomePage(driver);
+		System.out.println("home page started");
 	}
 
 	@AfterMethod
